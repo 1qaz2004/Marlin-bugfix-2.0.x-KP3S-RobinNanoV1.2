@@ -1,1 +1,3 @@
 The final version! KP3s firmware based on Marlin-bugfix-2.0.x. Extended user menu, new sound, adjustable case backlight, improved color gamut, support for filament sensor, added service menu. Plastic extrusion is normalized. The direction of movement of the extruder and motors does not change! #define INVERT_E0_DIR false. The firmware is configured and fully functional. Minor improvements are currently underway. The backlighting of the case is implemented on a 12V LED module, consisting of 3 LEDs. Connect to HE1 through a 1.5kΩ 0.125W resistor.
+Added file for non-inverted extruder motor. Robin_nano_E0_DIR false.bin
+For firmware, rename the file to Robin_nano.bin and write it to a flash card. Insert the USB stick into the printer slot and turn on the power of the KP3S.
